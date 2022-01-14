@@ -1,0 +1,53 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* common styles  */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header design start from here  */
+header {
+    margin-top: 20px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0px 70px;
+    align-items: center;
+}
+
+.nav-title {
+    width: 243px;
+    height: 52px;
+}
+
+.nav-heading {
+    color: #3A3A3A;
+    margin-top: 10px;
+}
+
+.nav-menu ul {
+    display: flex;
+    justify-content: right;
+}
+
+.nav-menu ul li {
+    list-style-type: none;
+    margin-left: 20px;
+
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #3A3A3A;
+    padding: 3px 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-menu ul li a:hover {
+    background-color: #ddd;
+}
