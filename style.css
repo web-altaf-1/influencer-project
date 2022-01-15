@@ -6,6 +6,10 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+main{
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* header design start from here  */
@@ -57,6 +61,10 @@ header {
 /* bloger section start from here  */
 
 
+.first-section{
+    margin-bottom: 50px;
+}
+
 
 .first-section-container {
     display: grid;
@@ -103,8 +111,59 @@ header {
 }
 
 
+/* collection section  */
 
+.collection-section{
+    width: auto;
+    height: 1662px;
+    margin: 30px auto;
+}
+.collection-title{
 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.collection-title h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.all-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+
+}
+.card{
+    width: 329px;
+    height: 476px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding: 20px 20px ;
+    padding-bottom:40px;
+}
+.card-info{
+    padding: 15px;
+}
+.card img{
+    width: 300px;
+    height: 256px;
+    border-radius: 4px;
+    margin-left: 14px;
+}
+
+.collection-link{
+    text-align: right;
+    margin-top: 50px;
+}
+
+.collection-link a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #e61890;
+}
 
 @media screen and (max-width: 688px) {
 
@@ -171,4 +230,3 @@ header {
 
 
 
-    
