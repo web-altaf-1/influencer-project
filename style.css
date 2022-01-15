@@ -67,10 +67,6 @@ header {
 
 .first-section {
     margin-bottom: 50px;
-}
-
-
-.first-section-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
@@ -78,6 +74,8 @@ header {
     margin: 35px auto;
     align-items: center;
 }
+
+
 
 .bloger-info h2 {
     color: #3A3A3A;
@@ -292,6 +290,7 @@ header {
         display: grid;
         grid-template-columns: 1fr;
         margin: 0;
+        width: 100%;
 
     }
 
@@ -333,13 +332,12 @@ header {
         display: none;
     }
 
-    .first-section-container {
-        display: flex;
-        flex-direction: column;
-    }
 
     .first-section {
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: auto;
+
 
     }
 
@@ -368,6 +366,7 @@ header {
 
     /* app section start from here  */
     .app-section {
+        width: 450px;
         display: grid;
         grid-template-columns: 1fr;
         margin: 20px auto;
@@ -390,3 +389,49 @@ header {
     .app-details p {
         width: 50%;
     }
+}
+
+
+@media screen and (min-width: 688px) and (max-width:992px) {
+    .navbar {
+        margin: 0 30px;
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .nav-title {
+        width: 100%;
+    }
+
+    .nav-menu {
+        width: 100%;
+    }
+
+    .nav-menu ul {
+        flex-wrap: nowrap;
+
+    }
+
+    .nav-menu ul li {
+        width: 83px;
+        margin-left: 0px;
+    }
+    
+    .first-section{
+        width: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .bloger-info{
+        width: 50%;
+    }
+    .bloger-image{
+        width: 50%;
+    }
+
+    .bloger-info{
+        width: auto;
+        margin: 90px auto;
+    }
+}
