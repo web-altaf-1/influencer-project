@@ -11,6 +11,9 @@ main{
     flex-direction: column;
 }
 
+.checked{
+    color: #FB8200;
+}
 
 /* header design start from here  */
 header {
@@ -85,7 +88,8 @@ header {
 .bloger-info p {
     color: #3A3A3A;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 30px;
+    margin-bottom: 25px;
 }
 
 .bloger-info a {
@@ -156,13 +160,17 @@ header {
 
 .collection-link{
     text-align: right;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .collection-link a{
     text-decoration: none;
     font-size: 16px;
     color: #e61890;
+}
+.collection-link .fas{
+    margin-left: 10px;
+    margin-right: 5px;
 }
 
 @media screen and (max-width: 688px) {
