@@ -240,7 +240,8 @@ header {
     font-weight: bold;
     color: #495c77;
 }
-.app-button{
+
+.app-button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -353,5 +354,39 @@ header {
         margin-top: 43px;
     }
 
-
     /* bloger section for mobile device end  */
+
+    .collection-section {
+        height: auto;
+    }
+
+    .all-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+
+    /* app section start from here  */
+    .app-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px auto;
+    }
+
+    .app-image {
+        width: 50%;
+    }
+
+    .app-image img {
+        width: 450px;
+
+    }
+
+    .app-details {
+        max-width: 688px;
+        padding: 15px;
+    }
+
+    .app-details p {
+        width: 50%;
+    }
