@@ -93,7 +93,7 @@ header {
 
 .link-animation {
     background-color: #ff2ea8;
-    border-radius: 35px;
+    border-radius: 30px;
     padding: 5px 15px;
     width: 142px;
     height: 33px;
@@ -110,8 +110,7 @@ header {
 .link-animation:hover {
     color: white;
     background-color: #ff00009a;
-    box-shadow: 3px 4px 23px black;
-
+    box-shadow: 5px 5px 15px black;
 }
 
 
@@ -186,6 +185,7 @@ header {
 }
 
 .collection-link a {
+    padding: 5px 15px;
     text-decoration: none;
     font-size: 16px;
     color: #e61890;
@@ -215,11 +215,13 @@ header {
 
 .app-image {
     width: 100%;
+
 }
 
 .app-image img {
     width: 90%;
     margin-top: 30px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.178);
 }
 
 .app-details {
@@ -373,7 +375,7 @@ header {
     }
 
     .app-image {
-        width: 50%;
+        width: 100%;
     }
 
     .app-image img {
