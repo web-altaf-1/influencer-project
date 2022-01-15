@@ -417,21 +417,52 @@ header {
         width: 83px;
         margin-left: 0px;
     }
-    
-    .first-section{
+
+    .first-section {
         width: auto;
         display: grid;
         grid-template-columns: 1fr;
     }
-    .bloger-info{
+
+    bloger-info {
         width: 50%;
+        margin: 20px auto;
     }
-    .bloger-image{
+
+    .bloger-image {
         width: 50%;
     }
 
-    .bloger-info{
+    .bloger-img img {
+        width: 100%;
+        margin-left: 50px;
+    }
+
+    .bloger-info {
         width: auto;
-        margin: 90px auto;
+        margin: 10px auto;
+        padding: 40px;
+    }
+
+
+    .all-cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: auto;
+    }
+
+    .collection-section {
+        height: auto;
+    }
+
+    .app-section {
+        width: 688px;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 20px auto;
+    }
+
+    .footer-section {
+        height: auto;
     }
 }
